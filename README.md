@@ -9,10 +9,10 @@ ___
 
 ### Technologies
 
-+React
-+React Spring
-+Node.js
-+MongoDB
-+Express.js
-+SASS
-+Bootstrap
++ React
++ React Spring
++ Node.js
++ MongoDB
++ Express.js
++ SASS
++ Bootstrap
