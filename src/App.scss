@@ -1,4 +1,4 @@
-$bg-color: #282c34;
+@import "./assets/styles/common";
 
 .App {
   text-align: center;
@@ -16,7 +16,7 @@ $bg-color: #282c34;
 }
 
 .App-header {
-  background-color: $bg-color;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
