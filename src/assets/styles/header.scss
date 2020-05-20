@@ -1,0 +1,58 @@
+@import '../styles/variables.scss';
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url(../fonts/HelveticaNeueLTStd-BdEx.otf) format('OpenType');
+  }
+
+.header {
+    position: absolute;
+    height: 50px;
+    padding: 0 120px;
+    top: 40px;
+    p {
+        color: $heading-color-text;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+    button {
+        border: none;
+    }
+    form {
+        padding: .2rem;
+        &:hover { 
+            border: 1px solid white; 
+            transition: ease-in-out;
+        }
+    }
+    input {
+        border: none;
+    }
+    label {
+        color: $heading-color-text;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-right: .2rem;
+    }
+    .logo {
+        font-size: 2.5rem;
+        margin-left: 50%;
+        font-family: 'Helvetica';
+    }
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    li {
+        color: $heading-color-text;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+}
+
+.search-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+
