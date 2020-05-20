@@ -1,0 +1,25 @@
+.imagecollection__container{
+    width: 100%;
+    min-height: 60vh;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    background:#DECFA7;
+}
+
+.imagecollection-section__first{
+    width: 35%;
+    background:#B9C8CB;
+}
+
+.imagecollection-section__second{
+    width: 35%;
+    background:#DAB4AF;
+}
+
+.imagecollection-section__third{
+    width: 35%;
+    background:#D3DAE2;
+}

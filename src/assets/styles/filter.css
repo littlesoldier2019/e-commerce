@@ -1,0 +1,121 @@
+.filter__container{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-transform: uppercase; 
+    background:  #fff;;
+}
+
+.filter-title{
+    font-size: 1.6rem;
+    padding: 10px;
+    /* margin: 10px 0px 10px 0px; */
+}
+
+.accordion{
+    border: none;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    padding: 10px;
+    margin-left: -15px;
+}
+
+.accordion {
+
+    border-radius: 5px;
+}
+
+
+.accordion .accordion-item .title {
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.accordion .accordion-item.active .title {
+    background-color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.accordion .accordion-item .title {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion .accordion-item .title:after {
+    content: '+';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion .accordion-item.active .title:after {
+    content: '-';
+}
+
+.filter-item, .selectableFilter{
+    margin-left: 10px;
+}
+
+
+.filter-name, .value{
+    padding-left: 5px;
+    text-transform: lowercase;
+}
+
+.filter-pricerange{
+    margin-top: 15px;
+}
+
+
+.filter-input{
+    border: 2px solid #cecece;
+    display: table-cell;
+    padding: 8px 12px;
+    border-color: #cecece;
+}
+
+input.filter-input{
+    width: 100%;
+    padding: 8px 12px;
+    border-color: #cecece;
+}
+
+input.filter-input:focus{
+   border-radius: 1px;
+   background-color: #fff;
+} 
+
+.btn-price{
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+
+
+.sort_item{
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+}

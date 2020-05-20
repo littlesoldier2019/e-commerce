@@ -1,0 +1,22 @@
+.categories__container{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    background:#fff;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.categories-titles{
+    font-size: 1.6rem;
+    padding: 10px;
+
+}
+
+.categories-items{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    padding: 10px;
+}

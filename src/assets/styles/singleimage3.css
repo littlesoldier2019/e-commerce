@@ -1,0 +1,62 @@
+.singleimg__container3{
+    width: 100%;
+    min-height: 90vh;
+    left: 0px;
+    margin-top:0px ;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    background:#99CB7B;
+}
+
+.singleimg-section_first{
+    width: 50%;
+}
+
+
+.singleimg-section__second{
+ 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 40%;
+}
+
+.singleimg-title{
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    padding: 10px;
+}
+
+.singleimg-description{
+    font-size: 1.7rem;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.singleimg-button{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.btn_shopnow{
+    width: 50%;
+    background-color: transparent;
+    color: #ffffff;
+	border: 2px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 15px 30px;
+	text-decoration:none;
+}
+
+.btn_btn_shopnow:hover {
+    transition: 0.3s ease-in;
+	border-radius: 5px;
+}
+.btn_btn_shopnow:active {
+	position:relative;
+	top:1px;
+}

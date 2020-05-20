@@ -1,0 +1,10 @@
+.catalog__container{
+    width: 100%;
+    min-height: 80vh;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 90px 0px 90px;
+    background:  #fff;; 
+}
