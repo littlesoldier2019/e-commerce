@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../assets/styles/imageboard.css'
+import '../../../assets/styles/imageboard.scss'
 
 function ImageBoard() {
     return (

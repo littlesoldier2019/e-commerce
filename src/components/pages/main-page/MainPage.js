@@ -6,7 +6,7 @@ import SingleImage2 from './SingleImage2'
 import NewArrival from './NewArrival'
 import SingleImage3 from './SingleImage3'
 import ImageMix from './ImageMix'
-import Footer from './Footer'
+import Footer from '../../shared-components/Footer'
 
 
 

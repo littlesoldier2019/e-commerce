@@ -1,16 +1,18 @@
+@import "variables";
+
 .imageboard__container{
     width: 80%;
-    min-height: 70vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     color: #fff;
-    /* background: #ce8787; */
 }
+
+//min-height property will only apply to images
 
 .imageitem1{
     width: 45%;
-    min-height: 65vh;
+    min-height: 650px;
     margin-bottom: 65px; 
     background: #EBEBEB;
     

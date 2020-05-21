@@ -1,7 +1,7 @@
 import React from 'react'
 import Categories from './Categories'
 import Filter from './Filter'
-import '../../../assets/styles/sidebar.css'
+import '../../../assets/styles/sidebar.scss'
 
 
 function SideBar() {

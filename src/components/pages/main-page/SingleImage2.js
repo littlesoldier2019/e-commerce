@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import '../../../assets/styles/singleimg.css'
+import '../../../assets/styles/singleimg.scss'
 
 function SingleImage2() {
 

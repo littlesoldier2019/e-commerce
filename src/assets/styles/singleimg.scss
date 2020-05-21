@@ -1,26 +1,23 @@
-.singleimg__container3{
+@import "variables";
+
+.singleimg__container{
     width: 100%;
-    min-height: 90vh;
     left: 0px;
-    margin-top:0px ;
+    top: 0px;
+    margin-top:10px ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: #ffffff;
-    background:#99CB7B;
-}
-
-.singleimg-section_first{
-    width: 50%;
+    background:#DECFA7;
 }
 
 
-.singleimg-section__second{
- 
-    padding: 40px;
+.singleimg-section{
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-top: 40%;
+    margin-top: 20%;
+    margin-left:150px;
 }
 
 .singleimg-title{
@@ -38,10 +35,11 @@
 .singleimg-button{
     margin-top: 15px;
     padding: 10px;
+    margin-bottom: 50%;
 }
 
 .btn_shopnow{
-    width: 50%;
+    width: 45%;
     background-color: transparent;
     color: #ffffff;
 	border: 2px solid #ffffff;

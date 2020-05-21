@@ -1,18 +1,18 @@
+@import "variables";
+
 .newarrival__container{
     width: 100%;
-    min-height: 70vh;
     left: 0px;
     top: 0px;
     display: flex;
     flex-direction: column;
     color: #ffffff;
     background:#fff;
-    padding: 60px 90px 0px 90px;
+    padding: 60px 90px 60px 90px;
 }
 
 .newarrival-content{
     width: 100%;
-    height: 52vh;
     margin-top: 25px;
     display: flex;
     flex-direction: row;
@@ -27,8 +27,11 @@
     
 }
 
+//min-height property will only apply to images
+
 .newarrival-item1{
     width: 25%;
+    min-height: 550px;
     background:#D4D4D4;
 }
 

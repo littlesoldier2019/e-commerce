@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../assets/styles/imagecollection.css'
+import '../../../assets/styles/imagecollection.scss'
 
 
 function ImageCollection() {

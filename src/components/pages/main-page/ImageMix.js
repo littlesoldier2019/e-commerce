@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import '../../../assets/styles/imagemix.css'
+import '../../../assets/styles/imagemix.scss'
 
 function ImageMix() {
     return (

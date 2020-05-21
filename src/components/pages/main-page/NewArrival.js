@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../assets/styles/newarrival.css'
+import '../../../assets/styles/newarrival.scss'
 
 
 function NewArrival() {
@@ -13,7 +13,7 @@ function NewArrival() {
                 <div className='newarrival-item1'></div>
                 <div className='newarrival-item2'></div>
                 <div className='newarrival-item3'></div>
-                <div className='newarrival-item4'>.</div>
+                <div className='newarrival-item4'></div>
                 
             </div>
             

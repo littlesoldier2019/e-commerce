@@ -3,7 +3,7 @@
 import React from 'react'
 import { Accordion, AccordionItem } from 'react-light-accordion';
 import 'react-light-accordion/demo/css/index.css';
-import '../../../assets/styles/filter.css'
+import '../../../assets/styles/filter.scss'
 
 
 
@@ -14,71 +14,29 @@ function Filter() {
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="4" id="" />
                 </span>
-                <span className='filter-name'> 4 </span>
+                <span className='filter-name'> S </span>
                 <span className='filter-value'>(1)</span>
             </div>
 
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="6" id="" />
                 </span>
-                <span className='filter-name'> 6 </span>
+                <span className='filter-name'> M </span>
                 <span className='filter-value'>(59)</span>
             </div>
 
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="8-10" id="" />
                 </span>
-                <span className='filter-name'> 8 - 10 </span>
+                <span className='filter-name'> L </span>
                 <span className='filter-value'>(100)</span>
             </div>
 
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="10" id="" />
                 </span>
-                <span className='filter-name'> 10 </span>
+                <span className='filter-name'> XL </span>
                 <span className='filter-value'>(59)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="12" id="" />
-                </span>
-                <span className='filter-name'> 12 </span>
-                <span className='filter-value'>(500)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="12-14" id="" />
-                </span>
-                <span className='filter-name'> 12 - 14 </span>
-                <span className='filter-value'>(10)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="12-14" id="" />
-                </span>
-                <span className='filter-name'> 12 - 14 </span>
-                <span className='filter-value'>(10)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="14" id="" />
-                </span>
-                <span className='filter-name'> 14 </span>
-                <span className='filter-value'>(100)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="16" id="" />
-                </span>
-                <span className='filter-name'> 16 </span>
-                <span className='filter-value'> (25) </span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="16-18" id="" />
-                </span>
-                <span className='filter-name'> 16 - 18 </span>
-                <span className='filter-value'> (58) </span>
             </div>
         </>
     );
@@ -298,71 +256,37 @@ function Filter() {
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="4" id="" />
                 </span>
-                <span className='filter-name'> Adidass </span>
+                <span className='filter-name'> Name </span>
                 <span className='filter-value'>(6)</span>
             </div>
 
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="6" id="" />
                 </span>
-                <span className='filter-name'> Asics</span>
+                <span className='filter-name'> Cheapest</span>
                 <span className='filter-value'>(300)</span>
             </div>
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="8-10" id="" />
                 </span>
-                <span className='filter-name'> Calvin Klein </span>
+                <span className='filter-name'> Newest </span>
                 <span className='filter-value'>(10)</span>
             </div>
 
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="10" id="" />
                 </span>
-                <span className='filter-name'> Converse </span>
+                <span className='filter-name'> Best selling </span>
                 <span className='filter-value'>(9)</span>
             </div>
 
             <div className='filter-item'>
                 <span><input className='selectableFilter' type="checkbox" name="12" id="" />
                 </span>
-                <span className='filter-name'> Everlast </span>
+                <span className='filter-name'> Most Popular</span>
                 <span className='filter-value'>(50)</span>
             </div>
 
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="12-14" id="" />
-                </span>
-                <span className='filter-name'> Kappa  </span>
-                <span className='filter-value'>(10)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="12-14" id="" />
-                </span>
-                <span className='filter-name'> Satin </span>
-                <span className='filter-value'>(1)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="14" id="" />
-                </span>
-                <span className='filter-name'> Karrimore </span>
-                <span className='filter-value'>(100)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="16" id="" />
-                </span>
-                <span className='filter-name'> Lonsdale </span>
-                <span className='filter-value'> (5) </span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="16-18" id="" />
-                </span>
-                <span className='filter-name'> Nike </span>
-                <span className='filter-value'> (58) </span>
-            </div>
         </>
     );
 
@@ -395,11 +319,11 @@ function Filter() {
 
             <>
                 <h2 className='filter-title'>
-                    sort: <a href='#'>newest</a> 
+                    sort 
                 </h2>
 
                 <Accordion atomic={true}>
-                    <AccordionItem title="newest">
+                    <AccordionItem title="by">
                         <Sort />
                     </AccordionItem>
                 </Accordion>
