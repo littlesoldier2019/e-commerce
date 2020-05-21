@@ -5,10 +5,8 @@
   }
 
 .header {
-    position: absolute;
     height: 50px;
     padding: 0 120px;
-    top: 40px;
     p {
         color: $heading-color-text;
         text-transform: uppercase;
@@ -22,7 +20,8 @@
         padding: .2rem;
         &:hover { 
             border: 1px solid white; 
-            transition: ease-in-out;
+            -webkit-transition: all 0.3s linear;
+            transition: all 0.3s linear;
         }
     }
     input {

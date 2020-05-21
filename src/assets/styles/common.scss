@@ -1,4 +1,13 @@
 @import "variables";
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica'), url(../fonts/HelveticaNeueLTStd-BdEx.otf) format('OpenType');
+}
+@font-face {
+  font-family: 'Fontawesome';
+  src: local('Fontawesome'), url(../fonts/FontAwesome.otf) format('OpenType');
+}
+
 
 *,*::before, *::after {
   box-sizing: border-box;
@@ -24,3 +33,12 @@ ul, li {
   list-style: none;
 }
 
+h3 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+}

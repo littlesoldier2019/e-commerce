@@ -1,0 +1,63 @@
+@import "variables";
+
+.info-image {
+    height: 100%;
+    margin-bottom: 5%;
+    
+    .img-fluid {
+        max-height: 846px;
+    }
+}
+
+.info-text {
+    height: 100%;
+    margin-top: 15%;
+    
+    > div {
+        margin-top: 2rem;
+    }
+}
+
+.product-size {
+    color: $grey-color-text;
+}
+
+.product-size-item {
+    li {
+        display: inline-block;
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+.product-color  {
+    div {
+        height: 5rem;
+        width: 5rem;
+        background-color: grey;
+    }
+   
+    h4 {
+        color: $grey-color-text;
+    }
+}
+
+.add-to-bag {
+    button {      
+        width: 20rem;
+        height: 5rem;
+        background-color: #000F08;
+        border: none;
+    }
+    
+    h4 {
+        color: white;
+    }
+
+    div {
+        border-left: 1px solid white;
+        height: 5rem;
+        width: 5rem;
+        background-color: #000F08;
+    }
+}
