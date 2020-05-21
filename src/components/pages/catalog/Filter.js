@@ -251,44 +251,26 @@ function Filter() {
     );
 
 
-    const Sort = () => (
+    const SortBy = () => (
+
         <>
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="4" id="" />
-                </span>
-                <span className='filter-name'> Name </span>
-                <span className='filter-value'>(6)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="6" id="" />
-                </span>
-                <span className='filter-name'> Cheapest</span>
-                <span className='filter-value'>(300)</span>
-            </div>
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="8-10" id="" />
-                </span>
-                <span className='filter-name'> Newest </span>
-                <span className='filter-value'>(10)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="10" id="" />
-                </span>
-                <span className='filter-name'> Best selling </span>
-                <span className='filter-value'>(9)</span>
-            </div>
-
-            <div className='filter-item'>
-                <span><input className='selectableFilter' type="checkbox" name="12" id="" />
-                </span>
-                <span className='filter-name'> Most Popular</span>
-                <span className='filter-value'>(50)</span>
-            </div>
-
+            <label htmlFor='' >
+                <h2 className='filter-title'>
+                    sort by
+                </h2>
+            </label>
+            <select className='filter-dropdown'>
+                <option value="recommended">Recommended</option>
+                <option value="brand_asc">Brand (A To Z)</option>
+                <option value="brand_desc">Brand (Z To A)</option>
+                <option value="best_selling"> Best selling </option>
+                <option value="name"> Name </option>
+                <option value="newest"> Newest </option>
+                <option value="price_desc">Price (High To Low)</option>
+                <option value="price_desc">Price (Low To High)</option>
+            </select>
         </>
-    );
+    )
 
 
     return (
@@ -318,15 +300,7 @@ function Filter() {
             </Accordion>
 
             <>
-                <h2 className='filter-title'>
-                    sort 
-                </h2>
-
-                <Accordion atomic={true}>
-                    <AccordionItem title="by">
-                        <Sort />
-                    </AccordionItem>
-                </Accordion>
+                <SortBy />
             </>
 
         </div>

@@ -54,7 +54,7 @@
 
 .accordion .accordion-item .title:after {
     content: '+';
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -62,10 +62,43 @@
 
 .accordion .accordion-item.active .title:after {
     content: '-';
+    font-weight: bold;
 }
 
-.filter-item, .selectableFilter{
-    margin-left: 10px;
+.filter-item{
+    margin-left: 30px;
+}
+
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border: 1px solid #555555;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 0px;
+    padding: 6px;
+    background-color: rgb(8, 7, 7);
+    position: absolute;
+    top: 4px;
+    left: 4px;
 }
 
 
@@ -73,21 +106,28 @@
     padding-left: 5px;
 }
 
+
 .filter-pricerange{
-    margin-top: 15px;
+
+    justify-content: space-around;
+    width: 100%;
 }
 
+.price-range__item1, .price-range__item2{
+    margin: 5px;
+    width: 100%;
+
+}
 
 .filter-input{
+    width: 100%;
     border: 2px solid #cecece;
     display: table-cell;
-    padding: 8px 12px;
     border-color: #cecece;
 }
 
 input.filter-input{
     width: 100%;
-    padding: 8px 12px;
     border-color: #cecece;
 }
 
@@ -95,6 +135,27 @@ input.filter-input:focus{
    border-radius: 1px;
    background-color: #fff;
 } 
+
+
+.filter-dropdown{
+    width: 90%;
+    text-transform:capitalize;
+    padding-bottom: 100px;
+    border: 2px solid #cecece;
+    display: table-cell;
+    padding: 8px 12px;
+    border-color: #cecece;
+    outline: none;
+}
+
+
+.filter-dropdown:focus{
+    transition: all 2s;
+    border-radius: 1px;
+    background-color: #fff;
+ } 
+ 
+
 
 .btn-price{
     width: 100%;
@@ -109,6 +170,7 @@ input.filter-input:focus{
     background-color: #000;
     border: 1px solid #000;
     color: #fff;
+    outline: none;
 }
 
 
