@@ -3,7 +3,7 @@ import CartItem from "./CartItem";
 
 const CartList = ({ items }) => {
   return (
-    <form className="container">
+    <form>
       {items.map((item) => {
         return <CartItem key={item.id} item={item} />;
       })}

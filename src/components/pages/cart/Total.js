@@ -8,8 +8,8 @@ const Total = ({ items }) => {
 
   return (
     <>
-      <div className="total_price">Total USD ${price}</div>
-      <button className="total__btn">Proceed to checkout</button>
+      <div className="total__price">Total USD ${price}</div>
+      <button className="btn total__btn">Proceed to checkout</button>
     </>
   );
 };

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CartTitle from "./CartTitle";
 import CartList from "./CartList";
 import Total from "./Total";
+import '../../../assets/styles/cart.scss';
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([
@@ -51,11 +52,11 @@ const Cart = () => {
     },
   ]);
   return (
-    <>
+    <div className="container cart">
       <CartTitle items={cartItems} />
       <CartList items={cartItems} />
       <Total items={cartItems} />
-    </>
+    </div>
   );
 };
 

@@ -1,5 +1,26 @@
 // Font
-$font-family: 'Montserrat', sans-serif;
+
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url(../fonts/HelveticaNeueLTStd-BdEx.otf) format('OpenType');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url(../fonts/HelveticaNeueLTStd25UltraLight_22508.ttf) format('OpenType');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url(../fonts/HelveticaNeueLTStd45Light_22520.ttf) format('OpenType');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url(../fonts/HelveticaNeueLTStd55Roman_22526.ttf) format('OpenType');
+}
+
+$font-family: 'Helvetica';
 $font-size: 2.4rem;
 $line-height: 2rem;
 $font-size-heading: 7.6rem;
