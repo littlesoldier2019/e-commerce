@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import CustomerToggle from "./CustomerToggle";
 import CustomerSidebar from "./CustomerSidebar";
 import CustomerContent from "./CustomerContent";
+import "../../../assets/styles/customer.scss";
 
 const CustomerService = () => {
   return (
-    <div className="container">
+    <div className="container customer-service">
       <div className="row">
         <div className="col-md-4">
           <CustomerSidebar />

@@ -17,10 +17,12 @@ const CustomerToggle = ({ items, title }) => {
           return (
             <AccordionItem key={item.id}>
               <AccordionItemHeading>
-                <AccordionItemButton>{item.title}</AccordionItemButton>
+                <AccordionItemButton className="toggle__button">
+                  {item.title}
+                </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
-                <p>{item.desc}</p>
+                <div className="toggle__desc">{item.desc}</div>
               </AccordionItemPanel>
             </AccordionItem>
           );

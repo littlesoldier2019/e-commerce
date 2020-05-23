@@ -3,6 +3,7 @@ import React from "react";
 const CustomerSidebar = () => {
   return (
     <aside className="customer__sidebar sidebar">
+      <div className="sidebar__title">Categories</div>
       <ul className="sidebar__list">
         <li className="sidebar__list-item">
           <a className="sidebar__link" href="#">
