@@ -18,6 +18,7 @@ const CustomerToggle = ({ items, title }) => {
             <AccordionItem key={item.id}>
               <AccordionItemHeading>
                 <AccordionItemButton className="toggle__button">
+                  <i className="fas fa-plus"></i>
                   {item.title}
                 </AccordionItemButton>
               </AccordionItemHeading>
